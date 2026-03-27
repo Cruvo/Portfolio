@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cruvo — Game Developer</title>
-    <meta name="description" content="Cruvo (Raihanudheen) — Indie game developer from Kerala specializing in Unity game systems, C# programming, and Blender level design.">
+    <meta name="description"
+        content="Cruvo (Raihanudheen) — Indie game developer from Kerala specializing in Unity game systems, C# programming, and Blender level design.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Syne:wght@400;700;800&family=Inter:wght@300;400&display=swap"
@@ -314,18 +315,58 @@
         }
 
         @keyframes glitch1 {
-            0%, 90%, 100% { transform: none; opacity: 0; }
-            91% { transform: translate(-3px, 0); opacity: 0.8; }
-            92% { transform: translate(3px, 0); opacity: 0.8; }
-            93% { transform: translate(-2px, 0); opacity: 0.8; }
-            94% { transform: none; opacity: 0; }
+
+            0%,
+            90%,
+            100% {
+                transform: none;
+                opacity: 0;
+            }
+
+            91% {
+                transform: translate(-3px, 0);
+                opacity: 0.8;
+            }
+
+            92% {
+                transform: translate(3px, 0);
+                opacity: 0.8;
+            }
+
+            93% {
+                transform: translate(-2px, 0);
+                opacity: 0.8;
+            }
+
+            94% {
+                transform: none;
+                opacity: 0;
+            }
         }
 
         @keyframes glitch2 {
-            0%, 90%, 100% { transform: none; opacity: 0; }
-            91.5% { transform: translate(3px, 0); opacity: 0.6; }
-            92.5% { transform: translate(-3px, 0); opacity: 0.6; }
-            93.5% { transform: none; opacity: 0; }
+
+            0%,
+            90%,
+            100% {
+                transform: none;
+                opacity: 0;
+            }
+
+            91.5% {
+                transform: translate(3px, 0);
+                opacity: 0.6;
+            }
+
+            92.5% {
+                transform: translate(-3px, 0);
+                opacity: 0.6;
+            }
+
+            93.5% {
+                transform: none;
+                opacity: 0;
+            }
         }
 
         .hero-name .real-name {
@@ -488,8 +529,15 @@
         }
 
         @keyframes scrollPulse {
-            0%, 100% { opacity: 0.3; }
-            50% { opacity: 1; }
+
+            0%,
+            100% {
+                opacity: 0.3;
+            }
+
+            50% {
+                opacity: 1;
+            }
         }
 
         /* ─── SECTIONS ─── */
@@ -565,7 +613,7 @@
             border-color: rgba(0, 245, 255, 0.25);
             background: #0d1520;
             transform: translateY(-3px);
-            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(0,245,255,0.05);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(0, 245, 255, 0.05);
         }
 
         .project-card:hover::before {
@@ -991,11 +1039,25 @@
             transform: translateY(0);
         }
 
-        .reveal-delay-1 { transition-delay: 0.1s; }
-        .reveal-delay-2 { transition-delay: 0.2s; }
-        .reveal-delay-3 { transition-delay: 0.3s; }
-        .reveal-delay-4 { transition-delay: 0.4s; }
-        .reveal-delay-5 { transition-delay: 0.5s; }
+        .reveal-delay-1 {
+            transition-delay: 0.1s;
+        }
+
+        .reveal-delay-2 {
+            transition-delay: 0.2s;
+        }
+
+        .reveal-delay-3 {
+            transition-delay: 0.3s;
+        }
+
+        .reveal-delay-4 {
+            transition-delay: 0.4s;
+        }
+
+        .reveal-delay-5 {
+            transition-delay: 0.5s;
+        }
 
         /* Responsive */
         @media (max-width: 900px) {
@@ -1124,9 +1186,9 @@
                 <span class="real-name">Raihanudheen · Based in Malappuram, India</span>
             </h1>
             <p class="hero-desc fade-up delay-2">
-                Building worlds across genres — from <span>fast-paced FPS shooters</span> to
-                <span>atmospheric 3D environments</span>. Specialized in Unity game systems and
-                Blender level design, crafting experiences that feel alive.
+                Building worlds across genres — from fast-paced FPS shooters to
+                atmospheric 3D environments. Specialized in Unity game systems and Blender level design, crafting
+                experiences that feel alive.
             </p>
             <div class="hero-cta fade-up delay-3">
                 <a href="#projects" class="btn-primary">View Projects</a>
